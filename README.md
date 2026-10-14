@@ -1,4 +1,4 @@
-# benches
+# micro-benches
 
 A suite of OCaml **micro-benchmarks**, ported from
 [sandmark](https://github.com/ocaml-bench/sandmark), for comparing one OCaml
@@ -94,7 +94,7 @@ The prerequisite is to have an opam switch with `dune`. Note that without an orc
 
 For cross-runtime or doing GC-parameter sweeps you want an
 orchestrator to manage the per-runtime switches. [running-ng](https://github.com/udesou/running-ng) can be used 
-in combination with the micro-benchmarks by checking it out and defining `export RUNNING_BENCH_DIR=~/benches`. 
+in combination with the micro-benchmarks by checking it out and defining `export RUNNING_BENCH_DIR=~/micro-benches`. 
 The set of scripts helps drive the benchmark runs. To know more about how to use running-ng see its own docs.
 
 ### Clean
